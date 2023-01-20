@@ -3,6 +3,8 @@
 - [Development Setup](#development-setup)
   - [Install](#install)
   - [VSCode settings](#vscode-settings)
+    - [Nord](#nord)
+    - [Conda Terminal](#conda-terminal)
   - [Git](#git)
 
 Development setup for Jabez Wilson.
@@ -15,13 +17,36 @@ Development setup for Jabez Wilson.
 
 ## VSCode settings
 
-Ensure you do the following for setting up the Nord theme
+### Nord
 
 ```
 "workbench.colorTheme": "Nord",
 "workbench.colorCustomizations": {
     "notebook.cellEditorBackground": "#3b4252",
 },
+```
+
+### Conda Terminal
+
+```
+  "python.terminal.activateEnvironment": true,
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.profiles.windows": {
+      "PowerShell": {
+          "source": "PowerShell",
+          "icon": "terminal-powershell",
+          "python.terminal.executeInFileDir": true,
+          "args": [
+              "-NoLogo",
+              "-ExecutionPolicy",
+              "Bypass",
+              "-NoExit",
+              "-Command",
+              "& 'C:\\Users\\JabezWilson\\miniconda3\\shell\\condabin\\conda-hook.ps1'",
+              "; conda activate 'C:\\Users\\JabezWilson\\miniconda3'"
+          ]
+      },
+  }
 ```
 
 
