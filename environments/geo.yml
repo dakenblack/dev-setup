@@ -1,23 +1,25 @@
-name: data
+name: geo
 channels:
   - conda-forge
 dependencies:
   - python=3.11.0
   - pip
-  - numpy 
+  - numpy
   - sympy
-  - pandas 
+  - pandas
   - matplotlib 
-  - bokeh 
+  - bokeh
   - plotly=5.11.0
   - seaborn
-  - pyarrow 
+  - pyarrow
   - fastparquet 
   - ipython 
   - ipykernel 
   - openpyxl 
   - requests 
   - xarray
+  - folium
+  - netCDF4
   - pip:
     - xmltodict
     - tqdm

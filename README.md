@@ -49,7 +49,6 @@ Development setup for Jabez Wilson.
   }
 ```
 
-
 ## Git
 
 ```
