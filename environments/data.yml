@@ -4,20 +4,21 @@ channels:
 dependencies:
   - python=3.11.0
   - pip
-  - numpy 
+  - numpy
   - sympy
-  - pandas 
-  - matplotlib 
-  - bokeh 
+  - pandas
+  - matplotlib
+  - bokeh
   - plotly=5.11.0
   - seaborn
-  - pyarrow 
-  - fastparquet 
-  - ipython 
-  - ipykernel 
-  - openpyxl 
-  - requests 
+  - pyarrow
+  - fastparquet
+  - ipython `
+  - ipykernel
+  - openpyxl
+  - requests
   - xarray
+  - netCDF4
   - pip:
     - xmltodict
     - tqdm

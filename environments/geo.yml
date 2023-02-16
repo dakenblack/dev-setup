@@ -20,6 +20,7 @@ dependencies:
   - xarray
   - folium
   - netCDF4
+  - geopandas
   - pip:
     - xmltodict
     - tqdm
@@ -28,3 +29,4 @@ dependencies:
     - lxml
     - structlog
     - black
+    - rasterio
