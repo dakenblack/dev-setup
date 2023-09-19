@@ -1,19 +1,17 @@
-name: endgame
+name: opt
 channels:
   - conda-forge
+  - gurobi
 dependencies:
-  - python=3.11.0
+  - python=3.9
   - pip
   - numpy 
-  - sympy
   - pandas 
   - scikit-learn 
   - matplotlib 
   - bokeh 
   - plotly=5.11.0
   - seaborn
-  - pyarrow 
-  - fastparquet 
   - ipython 
   - ipykernel 
   - openpyxl 
@@ -23,9 +21,14 @@ dependencies:
   - pyomo
   - nbformat
   - kneed
+  - gurobi=9.5.2
+  - fastparquet
+  - pyarrow
+  - sympy
   - pip:
     - xmltodict
     - tqdm
     - black
     - structlog
+    - linopy
     - hvplot

@@ -1,31 +1,34 @@
-name: endgame
+name: vregis
 channels:
   - conda-forge
 dependencies:
   - python=3.11.0
   - pip
-  - numpy 
+  - numpy
   - sympy
-  - pandas 
-  - scikit-learn 
+  - pandas
   - matplotlib 
-  - bokeh 
+  - bokeh
   - plotly=5.11.0
   - seaborn
-  - pyarrow 
+  - pyarrow
   - fastparquet 
   - ipython 
   - ipykernel 
   - openpyxl 
   - requests 
-  - ipopt
-  - glpk
-  - pyomo
-  - nbformat
-  - kneed
+  - xarray
+  - folium
+  - netCDF4
+  - geopandas
+  - nbformat>=4.2.0
   - pip:
     - xmltodict
     - tqdm
-    - black
+    - selenium
+    - beautifulsoup4
+    - lxml
     - structlog
-    - hvplot
+    - black
+    - rasterio
+    - windpowerlib
