@@ -24,11 +24,12 @@ dependencies:
   - fastparquet
   - pyarrow
   - sympy
+  - cvxpy
   - pip:
     - xmltodict
     - tqdm
     - black
     - structlog
-    - linopy
     - hvplot
     - highspy
+    - networkx

@@ -9,16 +9,18 @@ dependencies:
   - pandas
   - matplotlib
   - bokeh
-  - plotly=5.11.0
+  - plotly=5.17.0
   - seaborn
   - pyarrow
   - fastparquet
-  - ipython `
+  - ipython
   - ipykernel
   - openpyxl
   - requests
   - xarray
   - netCDF4
+  - folium
+  - geopandas
   - pip:
     - xmltodict
     - tqdm
@@ -27,3 +29,5 @@ dependencies:
     - lxml
     - structlog
     - black
+    - networkx
+    - hvplot
