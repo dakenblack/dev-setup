@@ -1,17 +1,19 @@
-name: opt
+name: default
 channels:
   - conda-forge
-  - gurobi
 dependencies:
-  - python=3.11
+  - python=3.11.0
   - pip
   - numpy 
+  - sympy
   - pandas 
   - scikit-learn 
   - matplotlib 
   - bokeh 
-  - plotly=5.17.0
+  - plotly=5.11.0
   - seaborn
+  - pyarrow 
+  - fastparquet 
   - ipython 
   - ipykernel 
   - openpyxl 
@@ -21,14 +23,8 @@ dependencies:
   - pyomo
   - nbformat
   - kneed
-  - fastparquet
-  - pyarrow
-  - sympy
   - pip:
     - xmltodict
     - tqdm
     - black
     - structlog
-    - linopy
-    - hvplot
-    - highspy
