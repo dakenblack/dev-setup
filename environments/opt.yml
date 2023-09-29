@@ -6,7 +6,7 @@ dependencies:
   - python=3.11
   - pip
   - numpy 
-  - pandas 
+  - pandas=2.1.1
   - scikit-learn 
   - matplotlib 
   - bokeh 
@@ -19,8 +19,6 @@ dependencies:
   - ipopt
   - glpk
   - pyomo
-  - nbformat
-  - kneed
   - fastparquet
   - pyarrow
   - sympy
