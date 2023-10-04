@@ -31,3 +31,4 @@ dependencies:
     - hvplot
     - highspy
     - networkx
+    - pyperclip

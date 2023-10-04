@@ -31,3 +31,4 @@ dependencies:
     - black
     - networkx
     - hvplot
+    - pyperclip
