@@ -21,6 +21,7 @@ dependencies:
   - netCDF4
   - folium
   - geopandas
+  - nbformat
   - pip:
     - xmltodict
     - tqdm
@@ -32,3 +33,4 @@ dependencies:
     - networkx
     - hvplot
     - pyperclip
+    - tabulate

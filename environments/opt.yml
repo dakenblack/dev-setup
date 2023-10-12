@@ -14,6 +14,7 @@ dependencies:
   - seaborn
   - ipython 
   - ipykernel 
+  - nbformat
   - openpyxl 
   - requests 
   - ipopt
@@ -32,3 +33,4 @@ dependencies:
     - highspy
     - networkx
     - pyperclip
+    - tabulate
