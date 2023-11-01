@@ -9,7 +9,7 @@ dependencies:
   - pandas
   - matplotlib
   - bokeh
-  - plotly=5.17.0
+  - plotly=5.18.0
   - seaborn
   - pyarrow
   - fastparquet
@@ -34,3 +34,5 @@ dependencies:
     - hvplot
     - pyperclip
     - tabulate
+    - selenium-wire
+    - pygwalker
