@@ -2,7 +2,7 @@ name: data
 channels:
   - conda-forge
 dependencies:
-  - python=3.11.0
+  - python=3.11
   - pip
   - numpy
   - sympy
@@ -22,6 +22,7 @@ dependencies:
   - folium
   - geopandas
   - nbformat
+  - xlrd
   - pip:
     - xmltodict
     - tqdm
@@ -36,3 +37,7 @@ dependencies:
     - tabulate
     - selenium-wire
     - pygwalker
+    - pandera
+    - dask
+    - chromedriver_py
+    - yfinance

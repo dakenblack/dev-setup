@@ -1,0 +1,40 @@
+name: magellan
+channels:
+  - conda-forge
+  - gurobi
+dependencies:
+  - python=3.11
+  - pip
+  - numpy 
+  - pandas
+  - scikit-learn 
+  - matplotlib 
+  - bokeh 
+  - plotly=5.18.0
+  - seaborn
+  - ipython 
+  - ipykernel 
+  - nbformat
+  - openpyxl 
+  - requests 
+  - ipopt
+  - glpk
+  - pyomo
+  - fastparquet
+  - pyarrow
+  - sympy
+  - cvxpy
+  - pip:
+    - xmltodict
+    - tqdm
+    - lxml
+    - black
+    - structlog
+    - hvplot
+    - highspy
+    - networkx
+    - pyperclip
+    - tabulate
+    - pygwalker
+    - dash
+    - dash-bootstrap-components
