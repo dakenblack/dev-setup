@@ -3,14 +3,14 @@ channels:
   - conda-forge
   - gurobi
 dependencies:
-  - python=3.11
+  - python=3.12
   - pip
   - numpy 
   - pandas
   - scikit-learn 
   - matplotlib 
   - bokeh 
-  - plotly=5.18.0
+  - plotly=5.19.0
   - seaborn
   - ipython 
   - ipykernel 
